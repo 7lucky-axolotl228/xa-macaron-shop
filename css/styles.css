@@ -123,8 +123,8 @@ select:-webkit-autofill:focus {
   display: flex;
   align-items: center;
   padding-left: 20px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   width: 100%;
   background-color: #f7ebe5;
 }
