@@ -29,8 +29,9 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Arial", sans-serif;
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 14px;
+  font-weight: 400;
   line-height: normal;
   background-color: var(--bg);
   color: var(--text-color);
@@ -84,9 +85,9 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1440px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -102,16 +103,116 @@ select:-webkit-autofill:focus {
   background-color: #fff;
 }
 
-.site-header__container {
-}
-
 .site-header__bottom {
   display: flex;
   align-items: center;
+  padding-left: 100px;
   padding-top: 17px;
   padding-bottom: 17px;
 }
 
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+/* Header info */
+.site-header__info {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  background-color: #f7ebe5;
+}
+
+.header-info__sitenav {
+  margin-right: 76px;
+}
+
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 14px;
+}
+
+.sitenav__link {
+  display: block;
+  color: rgba(0, 0, 0, 0.79);
+  text-decoration: none;
+}
+
+
+/* CONTACT LIST */
+.header-info__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-right: 30px;
+  font-size: 14px;
+  list-style: none;
+}
+.header-info__item {
+  display: flex;
+  align-items: center;
+}
+
+.header-info__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.header-info__link {
+  display: block;
+  margin-right: 12px;
+  color: rgba(0, 0, 0, 0.88);
+  text-decoration: none;
+}
+
+.header-info__icon {
+  width: 24px;
+  height: 24px;
+}
+
+
+/* SOCIALS */
+.header-info__socials {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header-socials__item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.header-socials__link {
+  display: flex;
+  color: #000;
+  text-decoration: none;
+}
+
+.header-socials__icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+
+
+/* Header Bottom */
 .site-header__list {
   display: flex;
   padding: 0;

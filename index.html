@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -10,7 +10,7 @@
   <!--Fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/normalize.css">
@@ -19,27 +19,88 @@
 
 <body>
   <header class="site-header">
-    <div class="site-header__container container">
 
-      <div class="site-header__bottom">
-        <ul class="site-header__list">
-          <li class="site-header__item"><a class="site-header__link" href="">Сладкие дни</a></li>
-          <li class="site-header__item"><a class="site-header__link" href="">Подарочные наборы</a></li>
-          <li class="site-header__item"><a class="site-header__link" href="">Собрать набор</a></li>
-        </ul>
+      <div class="site-header__info header-info">
+        <div class="site-header__container container">
 
-        <a class="site-header__logo logo" href="">
-          <img class="logo__img" src="img/site-logo.svg" alt="site logo" width="124" height="124">
-        </a>
+          <!-- MAIN -->
+          <nav class="header-info__sitenav sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item"><a class="sitenav__link" href="">Гарантия свежести</a></li>
+              <li class="sitenav__item"><a class="sitenav__link" href="">Доставка и оплата</a></li>
+              <li class="sitenav__item"><a class="sitenav__link" href="">Оптовые поставки</a></li>
+              <li class="sitenav__item"><a class="sitenav__link" href="">Контакты</a></li>
+            </ul>
+          </nav>
 
-        <ul class="site-header__list">
-          <li class="site-header__item"><a class="site-header__link" href="">Создать дизайн</a></li>
-          <li class="site-header__item"><a class="site-header__link" href="">Копмания</a></li>
-          <li class="site-header__item"><a class="site-header__link" href="">Весь каталог</a></li>
-        </ul>
+          <!-- CONTACT -->
+          <ul class="header-info__list">
+
+            <li class="header-info__item">
+              <a class="header-info__link" href="">
+                <svg class="header-info__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path stroke="#000" stroke-linejoin="round" d="M16.95 4.052A6.953 6.953 0 0 0 12 2c-1.87 0-3.627.729-4.95 2.052-2.446 2.448-2.75 7.053-.658 9.844L12.001 22l5.6-8.093c2.1-2.802 1.797-7.407-.65-9.855Zm-4.885 7.444A2.56 2.56 0 0 1 9.51 8.94a2.56 2.56 0 0 1 2.555-2.557 2.56 2.56 0 0 1 2.556 2.557 2.56 2.56 0 0 1-2.556 2.556Z"/></svg>
+              </a>
+              <p class="header-info__text">Санкт-Петербург</p>
+            </li>
+
+            <li class="header-info__item">
+              <a class="header-info__link" href="">
+                <svg class="header-info__icon" xmlns="http://www.w3.org/2000/svg" width="13" height="20" fill="none"><path stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M10.183 18.983H2.817A1.816 1.816 0 0 1 1 17.165V2.817C1 1.861 1.765 1 2.817 1h7.366C11.139 1 12 1.765 12 2.817v14.348c0 .957-.86 1.818-1.817 1.818ZM2.722 15.348h7.556"/><path fill="#000" d="M6.357 17.835a.67.67 0 1 0 0-1.34.67.67 0 0 0 0 1.34Z"/></svg>
+              </a>
+              <p class="header-info__text">8 812 309-82-88</p>
+            </li>
+
+            <li class="header-info__item">
+              <a class="header-info__link" href="">
+                <svg class="header-info__icon" xmlns="http://www.w3.org/2000/svg" width="16" height="22" fill="none"><g stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M15 5.604H1v15.41h14V5.603Z"/><path d="M4.289 7.483V3.537C4.289 2.127 5.322 1 6.544 1h2.912c1.222 0 2.255 1.128 2.255 2.537v3.946"/></g></svg>
+              </a>
+              <p class="header-info__text">В корзине (4 товара)</p>
+            </li>
+          </ul>
+
+          <!-- SOCIALS -->
+          <ul class="header-info__socials header-socials">
+            <li class="header-socials__item">
+              <a class="header-socials__link" href="">
+                <svg class="header-socials__icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.973 6.047 3.34 11.123c-.474.165-.445.77.043.899l3.718.977 1.388 3.92c.145.41.728.534 1.065.227l1.922-1.747 3.773 2.465c.461.301 1.119.077 1.236-.422l2.498-10.634c.123-.52-.453-.954-1.01-.761Zm-1.834 2.36-6.798 5.35a.315.315 0 0 0-.12.208l-.262 2.07c-.009.068-.115.077-.138.012L7.745 12.96c-.05-.142.015-.295.156-.373l8.027-4.432c.184-.102.373.125.21.253Z" fill="#000"/></svg>
+              </a>
+            </li>
+
+            <li class="header-socials__item">
+              <a class="header-socials__link" href="">
+                <svg class="header-socials__icon" width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.343 17.453h1.007s.304-.033.46-.2c.142-.154.137-.442.137-.442s-.02-1.351.608-1.55c.618-.196 1.412 1.305 2.253 1.883.636.437 1.12.34 1.12.34l2.249-.03s1.177-.073.619-.998c-.046-.076-.325-.684-1.673-1.935-1.41-1.31-1.222-1.098.477-3.362 1.035-1.38 1.449-2.221 1.32-2.582-.124-.343-.885-.252-.885-.252l-2.532.015s-.188-.025-.327.058c-.136.082-.224.272-.224.272s-.4 1.067-.935 1.975c-1.128 1.915-1.579 2.016-1.763 1.897-.43-.277-.322-1.114-.322-1.708 0-1.855.281-2.63-.548-2.83-.276-.066-.478-.11-1.182-.117-.904-.01-1.669.003-2.102.215-.288.141-.51.455-.375.473.168.023.547.103.748.376.26.353.25 1.146.25 1.146s.15 2.185-.348 2.457c-.342.186-.81-.194-1.815-1.932-.515-.89-.904-1.873-.904-1.873s-.075-.184-.21-.283c-.162-.119-.388-.157-.388-.157l-2.407.016s-.361.01-.494.167c-.118.14-.01.429-.01.429s1.885 4.408 4.018 6.63c1.956 2.036 4.178 1.902 4.178 1.902Z" fill="#000"/></svg>
+              </a>
+            </li>
+
+            <li class="header-socials__item">
+              <a class="header-socials__link" href="">
+                <svg class="header-socials__icon" width="13" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><g fill="#000"><path d="M6.118 8.47a4.24 4.24 0 0 0 4.235-4.235A4.24 4.24 0 0 0 6.118 0a4.24 4.24 0 0 0-4.236 4.235 4.24 4.24 0 0 0 4.236 4.236Zm0-6.352a2.12 2.12 0 0 1 2.117 2.117 2.12 2.12 0 0 1-2.117 2.118A2.12 2.12 0 0 1 4 4.235a2.12 2.12 0 0 1 2.118-2.117Z"/><path d="M11.916 7.825a1.158 1.158 0 0 0-1.546 0c-2.344 2.161-6.159 2.161-8.504 0a1.158 1.158 0 0 0-1.545 0 .953.953 0 0 0 0 1.426c1.36 1.254 3.083 1.969 4.86 2.155L2.066 14.28a.952.952 0 0 0 0 1.425 1.158 1.158 0 0 0 1.546 0l2.507-2.311 2.506 2.31c.213.197.493.296.773.296s.56-.099.773-.295a.952.952 0 0 0 0-1.425l-3.117-2.874c1.778-.186 3.502-.9 4.862-2.155a.954.954 0 0 0 0-1.426Z"/></g></svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-    </div>
+      <div class="site-header__bottom">
+        <div class="site-header__container container">
+          <ul class="site-header__list">
+            <li class="site-header__item"><a class="site-header__link" href="">Сладкие дни</a></li>
+            <li class="site-header__item"><a class="site-header__link" href="">Подарочные наборы</a></li>
+            <li class="site-header__item"><a class="site-header__link" href="">Собрать набор</a></li>
+          </ul>
+
+          <a class="site-header__logo logo" href="">
+            <img class="logo__img" src="img/site-logo.svg" alt="site logo" width="124" height="124">
+          </a>
+
+          <ul class="site-header__list">
+            <li class="site-header__item"><a class="site-header__link" href="">Создать дизайн</a></li>
+            <li class="site-header__item"><a class="site-header__link" href="">Копмания</a></li>
+            <li class="site-header__item"><a class="site-header__link" href="">Весь каталог</a></li>
+          </ul>
+        </div>
+      </div>
+
   </header>
 
 
