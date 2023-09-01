@@ -1,5 +1,9 @@
 :root {
-
+  --header-text-color: #2b1414;
+  --text-color: #292929;
+  --promo-cost: #e7426a;
+  --promo-bg: #ff4d6d;
+  --bg: #f7f7f7;
 }
 /* GLOBAL */
 html {
