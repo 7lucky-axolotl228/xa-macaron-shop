@@ -140,7 +140,7 @@ select:-webkit-autofill:focus {
   background-color: transparent;
   cursor: pointer;
 }
-.btn-before {
+.btn-previous {
   left: 0;
   margin-right: 295px;
 }
@@ -150,14 +150,27 @@ select:-webkit-autofill:focus {
 }
 
 .slider__info {
-  display: flex;
+  display: none;
   align-items: center;
   margin-right: auto;
   margin-left: auto;
 }
 
+.slider__info--active {
+  display: flex;
+}
+
+.slider__info-content {
+  display: flex;
+  align-items: center;
+}
+
 .slider__img-wrapper {
   position: relative;
+  margin-right: 10px;
+}
+
+.mindal-wrapper {
   margin-right: 40px;
 }
 
