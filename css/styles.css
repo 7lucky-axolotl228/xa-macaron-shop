@@ -316,6 +316,118 @@ select:-webkit-autofill:focus {
 
 
 
+/* HERO */
+.hero__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-image: url("../img/hero-circle-5.png"), url("../img/hero-circle-3.png"), url("../img/hero-circle-4.png");
+  background-repeat: no-repeat;
+  background-position: 1030px -40px, 1200px 130px, 1100px 200px;
+}
+
+.hero__img {
+  width: 759px;
+  height: 479px;
+}
+
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 500px;
+}
+
+.hero__logo {
+  display: flex;
+  align-self: center;
+  margin: 0;
+  width: 272px;
+  height: 48px;
+}
+
+.hero__title {
+  margin-top: 24;
+  margin-bottom: 13px;
+  font-size: 42px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.hero__text {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.hero__bg-img {
+  position: absolute;
+}
+.macaron-bg-2 {
+  top: 370px;
+  left: 150px;
+}
+.macaron-bg-3 {
+  top: 100px;
+  left: 465px;
+}
+.macaron-bg-4 {
+  top: 80px;
+  left: 100px;
+}
+.macaron-bg-5 {
+  top: 320px;
+  left: 465px;
+}
+
+.almond-bg-2 {
+  top: 245px;
+  left: 465px;
+}
+.almond-bg-4 {
+  top: 180px;
+  left: 85px;
+}
+.almond-bg-5 {
+  top: 80px;
+  left: 250px;
+}
+.almond-bg-7 {
+  top: 365px;
+  left: 75px;
+}
+.almond-bg-8 {
+  top: 370px;
+  left: 440px;
+}
+.almond-bg-10 {
+  top: 380px;
+  left: 250px;
+}
+
+.leaf-bg-6 {
+  top: 275px;
+  left: 90px;
+}
+.leaf-bg-23 {
+  top: 175px;
+  left: 510px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 1440px) {
   .site-header__info .site-header__container {
     padding-left: 70px;
@@ -326,9 +438,6 @@ select:-webkit-autofill:focus {
   }
 
 }
-
-
-
 
 
 @media
