@@ -316,7 +316,16 @@ select:-webkit-autofill:focus {
 
 
 
+@media only screen and (min-width: 1440px) {
+  .site-header__info .site-header__container {
+    padding-left: 70px;
+  }
 
+  .site-header__bottom .site-header__container {
+    padding-left: 105px;
+  }
+
+}
 
 
 
