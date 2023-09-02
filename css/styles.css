@@ -13,8 +13,7 @@ html {
 }
 
 *:focus {
-  outline: 2px dotted orchid;
-  outline-offset: 2px;
+  outline: none;
 }
 
 *,
@@ -115,6 +114,78 @@ select:-webkit-autofill:focus {
   display: flex;
   align-items: center;
 }
+
+
+/* HEADER SLIDERS */
+.site-header__slider {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #d4e9f9;
+}
+
+.slider__container {
+  position: relative;
+}
+
+.slider {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* Buttons */
+.slider__button {
+  position: absolute;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-before {
+  left: 0;
+  margin-right: 295px;
+}
+.btn-next {
+  right: 0;
+  margin-left: 295px;
+}
+
+.slider__info {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slider__img-wrapper {
+  position: relative;
+  margin-right: 40px;
+}
+
+.slider__icon-img {
+  width: 30px;
+  height: 30px;
+}
+
+.slider__icon-badge {
+  position: absolute;
+  bottom: 3px;
+  right: -25px;
+  padding: 1.5px 4px;
+  border: 0;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 8px;
+  color: #000;
+  background-color: #6dcbba;
+}
+
+.slider__title {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+}
+
 
 
 
