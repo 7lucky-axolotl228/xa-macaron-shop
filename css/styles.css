@@ -452,7 +452,7 @@ select:-webkit-autofill:focus {
 .info-cards__item {
   flex-direction: column;
   width: 570px;
-  height: 260px;
+  height: 280px;
   padding: 35px 53px;
   text-align: center;
   border-radius: 3px;
