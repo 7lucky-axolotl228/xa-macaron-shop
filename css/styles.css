@@ -516,6 +516,89 @@ select:-webkit-autofill:focus {
 }
 
 
+/* PROMO SECTION */
+.promo {
+  margin-bottom: 140px;
+}
+
+.promo__container {
+}
+
+.promo__heading {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.promo__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  padding-left: 135px;
+  padding-right: 135px;
+  margin: 0;
+  list-style: none;
+}
+
+.promo__item {
+  position: relative;
+  width: 270px;
+  height: 380px;
+  text-align: center;
+}
+
+.promo__item:not(:last-child) {
+  margin-right: 35px;
+}
+
+.promo__img {
+  flex-shrink: 0;
+  display: flex;
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.promo__badge {
+  position: absolute;
+  top: 15px;
+  left: -1px;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #ff4d6d;
+}
+
+.promo__badge-first {
+  background-color: #8cc4ec;
+}
+
+.promo__body {
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.promo__body-1 {
+  background-color: #8cc4ec;
+}
+.promo__body-2, .promo__body-3, .promo__body-4  {
+  background-color: #ff4d6d;
+}
+
+.promo__text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
 
 
 
