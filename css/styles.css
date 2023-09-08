@@ -608,6 +608,9 @@ select:-webkit-autofill:focus {
 }
 
 .holidays__container {
+  background-image: url("../img/holidays-line.png");
+  background-repeat: no-repeat;
+  background-position: 230px center;
 }
 
 .holidays__heading {
@@ -623,7 +626,7 @@ select:-webkit-autofill:focus {
   display: flex;
   align-items: center;
   padding: 0;
-  padding-left: 100px;
+  padding-left: 130px;
   margin: 0;
   list-style: none;
 }
@@ -636,11 +639,9 @@ select:-webkit-autofill:focus {
 }
 
 .holidays__item:not(:last-child) {
-  margin-right: 110px;
+  margin-right: 100px;
 }
 
-.holidays__img {
-}
 
 .holidays__item-1 {
   position: relative;
