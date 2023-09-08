@@ -602,6 +602,65 @@ select:-webkit-autofill:focus {
 
 
 
+/* HOLIDAYS SECTION */
+.holidays {
+  margin-bottom: 105px;
+}
+
+.holidays__container {
+}
+
+.holidays__heading {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.holidays__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  padding-left: 100px;
+  margin: 0;
+  list-style: none;
+}
+
+.holidays__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0;
+}
+
+.holidays__item:not(:last-child) {
+  margin-right: 110px;
+}
+
+.holidays__img {
+}
+
+.holidays__item-1 {
+  position: relative;
+}
+
+.holidays__img-hat {
+  position: absolute;
+  right: 8px;
+  top: -50px;
+}
+
+.holidays__text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-color);
+  text-align: center;
+}
+
+
+
 
 
 
