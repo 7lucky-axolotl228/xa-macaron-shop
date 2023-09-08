@@ -537,13 +537,14 @@ select:-webkit-autofill:focus {
   display: flex;
   align-items: center;
   padding: 0;
-  padding-left: 135px;
+  padding-left: 115px;
   padding-right: 135px;
   margin: 0;
   list-style: none;
 }
 
 .promo__item {
+  flex-shrink: 0;
   position: relative;
   width: 270px;
   height: 380px;
@@ -551,7 +552,7 @@ select:-webkit-autofill:focus {
 }
 
 .promo__item:not(:last-child) {
-  margin-right: 35px;
+  margin-right: 30px;
 }
 
 .promo__img {
