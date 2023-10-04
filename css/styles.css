@@ -664,6 +664,13 @@ select:-webkit-autofill:focus {
 .sets {
   padding-left: 135px;
   padding-right: 135px;
+  margin-bottom: 85px;
+}
+
+.sets__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .sets__heading {
@@ -679,7 +686,7 @@ select:-webkit-autofill:focus {
   flex-wrap: wrap;
   align-items: center;
   padding: 0;
-  margin: 0;
+  margin: 2px;
   list-style: none;
 }
 
@@ -766,6 +773,20 @@ select:-webkit-autofill:focus {
   color: rgba(0, 0, 0, 0.88);
 }
 
+.sets__all-btn {
+  align-self: center;
+  padding: 17px 48px;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+  border: 1px solid rgba(78, 157, 211, 1);
+}
+
+.sets__all-btn:hover {
+  opacity: 0.8;
+}
 
 
 
