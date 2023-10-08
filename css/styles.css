@@ -744,6 +744,14 @@ select:-webkit-autofill:focus {
 }
 
 .sets__price {
+  margin-left: -80px;
+  align-self: flex-start;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e7426a;
+}
+.sets__price-2 {
   flex-grow: 1;
   font-size: 18px;
   font-weight: 600;
@@ -854,6 +862,7 @@ select:-webkit-autofill:focus {
   color: var(--text-color);
 }
 .news__text {
+  text-align: left;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.7px;
@@ -915,6 +924,7 @@ select:-webkit-autofill:focus {
 }
 
 .all-for-you__text {
+  text-align: left;
   font-size: 14px;
   font-weight: 400;
   color: var(--text-color);
